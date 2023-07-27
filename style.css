@@ -1,0 +1,80 @@
+/*propiedades para la página*/
+/*el asterisco significa todos los elemetos*/
+
+
+/*VH es viewport height que funciona igual que el porcentaje*/
+  .hero {
+   
+    background-color: rgb(4, 4, 4);
+    background-image: url(https://media0.giphy.com/media/UYBDCJjwOd9Re/giphy.gif?cid=ecf05e471ust68mmubxvjvhdu6moztvclb03lmcdvdbj0jkp&ep=v1_gifs_related&rid=giphy.gif&ct=g);
+    background-repeat: repeat;
+   background-size: 100%;
+
+  }
+
+  body{
+   color: white;
+   font-family: 'Josefin Sans';
+   text-align:justify;
+  }
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20%;
+
+    }
+
+    
+
+    h1{
+      color: #faa4bd;
+      text-align: center;
+       font-family: 'Lora', serif;
+       margin-bottom: 5%;
+    }
+
+
+    .intro{
+      margin: 5%;
+    }
+
+    h4{
+      color: #faa4bd;
+      text-align: center;
+    }
+
+    
+    .carousel-inner img{
+      height: 500px;
+      width: 740px;
+    }
+
+    accordion-header{
+      color: black;
+      }
+  
+  .accordion{
+    margin-bottom: 5%;
+  }
+  .accordion-button:not(.collapsed){
+      background-color: #faa4bd;
+      color: white
+    
+  }
+
+  .accordion-body{
+    font-family: 'Josefin Sans';
+    
+  }
+
+  .row{
+    margin: 5%;
+  }
+    
+  .p-nombra{
+    margin-top: 5%;
+  }
+
+  
